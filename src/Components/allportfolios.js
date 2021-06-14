@@ -1,71 +1,13 @@
-import port1 from '../img/portImages/maya-1.jpg';
-import port2 from '../img/portImages/port1.jpg';
-import port3 from '../img/portImages/port2.jpg';
-import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
-import port7 from '../img/portImages/port6.jpg';
+import port1 from '../img/portImages/bidhouse-wireframe.jpg';
+import port2 from '../img/portImages/maresme_4.jpg';
+import port3 from '../img/portImages/5tenedores_1.jpg';
+import port4 from '../img/portImages/BP14.jpg';
+import port5 from '../img/portImages/floriberia.jpg';
+import port7 from '../img/portImages/super.jpg';
 
-const portfolios = [
-    {
-        id: 1,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port1,
-        title: 'Autodesk Maya'
-    },
-    {
-        id: 2,
-        category: 'Python',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port2,
-        title: 'Python Web Scrapping'
-    },
-    {
-        id: 3,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port3,
-        title: 'Autodesk Maya'
-    },
-    {
-        id: 4,
-        category: 'Javascript',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
-    },
-    {
-        id: 5,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port6,
-        title: 'Getting Started With React'
-    },
-    {
-        id: 6,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port7,
-        title: 'Vanilla Javascript Website'
-    },
+/*
+
+,
     {
         id: 7,
         category: 'Test Port',
@@ -75,6 +17,70 @@ const portfolios = [
         icon2: 'Y',
         image: port4,
         title: 'Vanilla Javascript Website'
+    }
+
+*/
+
+const portfolios = [
+    {
+        id: 1,
+        category: 'React Native',
+        link1: '/portfolios/bidhouse',
+        link2: 'www.github.com',
+        icon1: 'show',
+        icon2: 'Y',
+        image: port1,
+        title: 'BidHouse'
+    },
+    {
+        id: 2,
+        category: 'CMS',
+        link1: '/portfolios/maresme',
+        link2: 'www.github.com',
+        icon1: 'show',
+        icon2: 'Y',
+        image: port2,
+        title: 'Institut Maresme'
+    },
+    {
+        id: 3,
+        category: 'React Native',
+        link1: '/portfolios/5tenedores',
+        link2: 'www.github.com',
+        icon1: 'show',
+        icon2: 'Y',
+        image: port3,
+        title: '5 Tenedores'
+    },
+    {
+        id: 4,
+        category: 'Photoshop',
+        link1: '/portfolios/bestprotein',
+        link2: 'www.github.com',
+        icon1: 'show',
+        icon2: 'Y',
+        image: port4,
+        title: 'Best Protein'
+    },
+    {
+        id: 5,
+        category: 'CMS',
+        link1: '/portfolios/floriberia',
+        link2: 'www.github.com',
+        icon1: 'show',
+        icon2: 'Y',
+        image: port5,
+        title: 'Floriberia'
+    },
+    {
+        id: 6,
+        category: 'Illustator',
+        link1: '/portfolios/super3',
+        link2: 'www.github.com',
+        icon1: 'show',
+        icon2: 'Y',
+        image: port7,
+        title: 'Super3'
     }
 ]
 

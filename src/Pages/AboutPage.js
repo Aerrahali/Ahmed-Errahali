@@ -31,13 +31,13 @@ function AboutPage() {
             <Tittle title={'Services'} span={'Services'} />
             <div className="servives-container">
                 <ServicesSection image={design} title={'Web design'}
-                    text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                    text={'Design and programming of web pages from scratch, database management, git versions and servers. I also use CMS like Wordpres, Prestasshop, Drupal among others.'}
                 />
                 <ServicesSection image={intelligence} title={'App development'}
-                    text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                    text={'Development of native applications for Android and iOS platforms, hybrid applications, PWA. Use of Express, Firebase, MongoDB, and other data warehousing service platforms.'}
                 />
                 <ServicesSection image={gamedev} title={'Graphic design'}
-                    text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                    text={'Creation of all kinds of graphic elements such as logos, illustrations, photomontages, photo retouching, posters, banners, brands, and much more.'}
                 />
 
 

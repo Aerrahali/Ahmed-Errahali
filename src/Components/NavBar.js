@@ -2,6 +2,20 @@ import React from 'react'
 import avatar from '../img/avatar.png';
 import { NavLink } from 'react-router-dom';
 
+/*
+
+<li className="nav-item">
+                        <NavLink to="/blogs" exact activeClassName="active">
+                            Blogs
+                        </NavLink>
+                    </li>
+
+
+*/
+
+
+
+
 function Navbar() {
     return (
         <div className="NavBar">
@@ -23,14 +37,10 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <NavLink to="/portfolios" exact activeClassName="active">
-                            Portfolios
+                            Portfolio
                         </NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink to="/blogs" exact activeClassName="active">
-                            Blogs
-                        </NavLink>
-                    </li>
+
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
                             Contact
